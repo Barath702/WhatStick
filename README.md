@@ -28,6 +28,23 @@ Get the latest version from **[GitHub Releases](https://github.com/Barath702/Wha
 - 📦 **Organize sticker packs** and add them directly to WhatsApp.
 - 🎨 **Personalize the app** with accent colours and Light, Dark or System themes.
 
+## 📸 App screenshots
+
+Take a look around WhatStick:
+
+<table>
+  <tr>
+    <td align="center"><img src="docs/screenshots/ss1.jpg" width="220" alt="WhatStick screenshot 1"></td>
+    <td align="center"><img src="docs/screenshots/ss2.jpg" width="220" alt="WhatStick screenshot 2"></td>
+    <td align="center"><img src="docs/screenshots/ss3.jpg" width="220" alt="WhatStick screenshot 3"></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/screenshots/ss4.jpg" width="220" alt="WhatStick screenshot 4"></td>
+    <td align="center"><img src="docs/screenshots/ss5.jpg" width="220" alt="WhatStick screenshot 5"></td>
+    <td align="center"><img src="docs/screenshots/ss6.jpg" width="220" alt="WhatStick screenshot 6"></td>
+  </tr>
+</table>
+
 ## 🛠️ How it works
 
 1. **Choose media:** Pick a photo, GIF or video from your device.
