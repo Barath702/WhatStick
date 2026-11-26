@@ -1,60 +1,77 @@
 # 🎨 WhatStick
 
-**Create your own WhatsApp stickers, right on your phone.**
-
-WhatStick is an offline-first Android sticker maker for turning photos, GIFs and videos into custom WhatsApp stickers. Edit them, organize them into packs and add your creations to WhatsApp.
+<p align="center">
+  <strong>Your photos. Your ideas. Your stickers.</strong>
+  <br />
+  An offline-first sticker studio for Android.
+</p>
 
 <p align="center">
-  <strong>🖼️ Make it · ✂️ Customize it · 📦 Share it</strong>
+  <img alt="Platform" src="https://img.shields.io/badge/Platform-Android-3DDC84?logo=android&logoColor=white" />
+  <img alt="Language" src="https://img.shields.io/badge/Kotlin-Android-7F52FF?logo=kotlin&logoColor=white" />
+  <img alt="License" src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" />
+  <img alt="Status" src="https://img.shields.io/badge/Processing-Offline%20First-brightgreen" />
 </p>
+
+---
+
+## ✨ Meet WhatStick
+
+WhatStick is an Android sticker maker that turns photos, GIFs and videos into custom WhatsApp stickers. Create, edit and organize your stickers into packs, then add them to WhatsApp or WhatsApp Business.
+
+No account. No complicated workflow. Just make something fun and share it.
 
 ## ⬇️ Download
 
-Get the latest version from **[GitHub Releases](https://github.com/Barath702/WhatStick/releases/latest)**.
+<p align="center">
+  <a href="https://github.com/Barath702/WhatStick/releases/latest">
+    <img alt="Download latest release" src="https://img.shields.io/badge/Download-Latest%20APK-2E8B57?style=for-the-badge&logo=android&logoColor=white" />
+  </a>
+</p>
 
-1. Download `WhatStick.apk` from the latest release.
-2. Open the downloaded APK on your Android phone.
-3. Allow installation from that source if Android asks.
-4. Open WhatStick and start creating!
+1. Open the [latest GitHub Release](https://github.com/Barath702/WhatStick/releases/latest).
+2. Download `WhatStick.apk`.
+3. Open the APK on your Android phone.
+4. Allow installation from that source if Android asks.
+5. Launch WhatStick and start creating!
 
-**Requirements:** Android 7.0 (API 24) or newer. To add sticker packs, WhatsApp or WhatsApp Business must be installed.
+**Requirements:** Android 7.0 (API 24) or newer. WhatsApp or WhatsApp Business is required to add sticker packs.
 
-## ✨ What you can do
+## 🧰 What can you create?
 
-- 🖼️ **Create static stickers** from photos and images.
-- 🎞️ **Make animated stickers** from GIFs and videos.
-- ✂️ **Fine-tune your stickers** with crop, zoom, rotate, stretch and outline tools.
-- 🖌️ **Make it yours** with text, fonts, drawing, erase and restore brushes, and Smart Object tools.
-- 📦 **Organize sticker packs** and add them directly to WhatsApp.
-- 🎨 **Personalize the app** with accent colours and Light, Dark or System themes.
+| Feature | What it does |
+|---|---|
+| 🖼️ **Static stickers** | Turn photos and images into stickers. |
+| 🎞️ **Animated stickers** | Create stickers from GIFs and videos. |
+| ✂️ **Editing tools** | Crop, zoom, rotate, stretch and add outlines. |
+| 🖌️ **Text and drawing** | Add text with font options and draw on your stickers. |
+| 🧽 **Erase and restore** | Refine your sticker edges with erase and restore brushes. |
+| 📦 **Sticker packs** | Organize your creations and add packs directly to WhatsApp. |
+| 🎨 **App themes** | Choose an accent colour and Light, Dark or System appearance. |
 
-## 📸 App screenshots
+## 📸 Take a look
 
-Take a look around WhatStick:
+<p align="center">
+  <img src="docs/screenshots/ss1.jpg" width="30%" alt="WhatStick screenshot 1" />
+  <img src="docs/screenshots/ss2.jpg" width="30%" alt="WhatStick screenshot 2" />
+  <img src="docs/screenshots/ss3.jpg" width="30%" alt="WhatStick screenshot 3" />
+</p>
+<p align="center">
+  <img src="docs/screenshots/ss4.jpg" width="30%" alt="WhatStick screenshot 4" />
+  <img src="docs/screenshots/ss5.jpg" width="30%" alt="WhatStick screenshot 5" />
+  <img src="docs/screenshots/ss6.jpg" width="30%" alt="WhatStick screenshot 6" />
+</p>
 
-<table>
-  <tr>
-    <td align="center"><img src="docs/screenshots/ss1.jpg" width="220" alt="WhatStick screenshot 1"></td>
-    <td align="center"><img src="docs/screenshots/ss2.jpg" width="220" alt="WhatStick screenshot 2"></td>
-    <td align="center"><img src="docs/screenshots/ss3.jpg" width="220" alt="WhatStick screenshot 3"></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="docs/screenshots/ss4.jpg" width="220" alt="WhatStick screenshot 4"></td>
-    <td align="center"><img src="docs/screenshots/ss5.jpg" width="220" alt="WhatStick screenshot 5"></td>
-    <td align="center"><img src="docs/screenshots/ss6.jpg" width="220" alt="WhatStick screenshot 6"></td>
-  </tr>
-</table>
+## 🪄 From media to sticker
 
-## 🛠️ How it works
-
-1. **Choose media:** Pick a photo, GIF or video from your device.
-2. **Edit:** Crop, adjust, add text or draw. Use the available tools to get the look you want.
-3. **Save:** Add your finished sticker to a pack.
-4. **Share:** Once your pack is ready, use **Add to WhatsApp** to import it.
+1. **Choose** a photo, GIF or video from your device.
+2. **Customize** it with the available editing tools.
+3. **Save** your creation into a sticker pack.
+4. **Share** it by using **Add to WhatsApp**.
 
 ## 📁 Supported formats
 
-| Type | Formats |
+| Media | Formats |
 |---|---|
 | Images | JPG, JPEG, PNG, WebP, HEIC/HEIF* |
 | Animated media | GIF, Animated WebP, MP4, WebM |
@@ -62,36 +79,37 @@ Take a look around WhatStick:
 
 *HEIC/HEIF support depends on Android version and device codec support.*
 
-## 🔐 Privacy first
+## 🔒 Privacy by design
 
-- WhatStick is designed to work offline. Sticker editing and processing happen on your device.
-- No account is required.
-- Media is selected using Android's Photo Picker and file access tools.
-- Your sticker files are stored in the app's private storage.
+- **Offline-first:** Sticker editing and processing are designed to happen on your device.
+- **No account required:** Open the app and get creating.
+- **Your media, your choice:** Select media using Android's Photo Picker and file access tools.
+- **Private storage:** Sticker files are stored in the app's private storage.
 
-Read the full [Privacy Policy](PRIVACY.md).
+Read the [Privacy Policy](PRIVACY.md) for more information.
 
-## 🎨 Personalization
+## 🎨 Make the app yours
 
-Choose from five accent colours:
+Pick an accent colour:
 
-🔵 Blue · 🟣 Purple · 🟢 Green · 🩷 Pink · 🟠 Orange
+🔵 Blue &nbsp; 🟣 Purple &nbsp; 🟢 Green &nbsp; 🩷 Pink &nbsp; 🟠 Orange
 
-Use Light, Dark or System appearance to match your preference.
+Choose **Light**, **Dark** or **System** appearance.
 
 ## 🧑‍💻 Build from source
 
-Want to explore or build WhatStick yourself?
+Want to explore the code or build WhatStick yourself?
 
-**Requirements**
+### Requirements
+
 - Android Studio (optional, for IDE-based development)
 - JDK 17 or newer
-- Gradle 9.3.1
+- Gradle **9.3.1**
 - Android SDK Platform 36
 
-**Build and test**
+### Build and test
 
-The repository includes `gradle/wrapper/gradle-wrapper.properties` configured for Gradle 9.3.1, but it does not currently include the Gradle Wrapper launchers (`gradlew`, `gradlew.bat`) or `gradle-wrapper.jar`. Therefore, the `./gradlew` commands will not work until those wrapper files are added.
+The repository includes `gradle/wrapper/gradle-wrapper.properties` configured for Gradle 9.3.1, but does not currently include the Gradle Wrapper launchers (`gradlew`, `gradlew.bat`) or `gradle-wrapper.jar`. The `./gradlew` commands will therefore not work until those files are added.
 
 For now, install Gradle 9.3.1 separately and run these commands from the project root:
 
@@ -106,9 +124,9 @@ gradle :app:lintDebug
 gradle :app:assembleDebug
 ```
 
-To build a signed release APK, configure your signing credentials locally using the project's supported Gradle properties/environment variables. **Never commit keystores, passwords or signing credentials.**
+To build a signed release APK, configure your signing credentials locally using the project's supported Gradle properties or environment variables. **Never commit keystores, passwords or signing credentials.**
 
-## 🧰 Built with
+## 🧱 Built with
 
 - Kotlin and Jetpack Compose
 - Material Design 3
@@ -122,4 +140,6 @@ WhatStick is licensed under the [Apache License 2.0](LICENSE).
 
 ---
 
-**Made with ❤️ for sticker lovers.**
+<p align="center">
+  <strong>💙 Made for sticker lovers. Built for creativity.</strong>
+</p>
