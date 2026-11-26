@@ -1,0 +1,6 @@
+{
+  "name": "WhatStick",
+  "description": "Offline WhatsApp sticker maker for static and animated stickers with on-device background removal, custom editor, and direct WhatsApp pack installation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

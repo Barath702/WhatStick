@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">WhatStick</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_my_stickers">My Stickers</string>
+    <string name="nav_settings">Settings</string>
+    <string name="home_subtitle">Offline WhatsApp Sticker Studio</string>
+    <string name="create_sticker">Create Sticker</string>
+    <string name="create_sticker_desc">Import a photo, GIF, or video to craft a crisp sticker</string>
+    <string name="create_pack">Create Sticker Pack</string>
+    <string name="entry_photo">Photo</string>
+    <string name="entry_gif">GIF</string>
+    <string name="entry_video">Video</string>
+    <string name="recent_packs">Recent Packs</string>
+    <string name="recent_stickers">Recent Stickers</string>
+    <string name="empty_packs_title">No sticker packs yet</string>
+    <string name="empty_packs_desc">Create a static or animated sticker pack to organize and export stickers to WhatsApp.</string>
+    <string name="add_to_whatsapp">Add to WhatsApp</string>
+    <string name="offline_badge">100% Offline • On-Device Processing</string>
+</resources>
