@@ -84,23 +84,26 @@ Use Light, Dark or System appearance to match your preference.
 Want to explore or build WhatStick yourself?
 
 **Requirements**
-- Android Studio with support for the project's Android Gradle Plugin
+- Android Studio (optional, for IDE-based development)
 - JDK 17 or newer
+- Gradle 9.3.1
 - Android SDK Platform 36
 
 **Build and test**
 
-From the project root:
+The repository includes `gradle/wrapper/gradle-wrapper.properties` configured for Gradle 9.3.1, but it does not currently include the Gradle Wrapper launchers (`gradlew`, `gradlew.bat`) or `gradle-wrapper.jar`. Therefore, the `./gradlew` commands will not work until those wrapper files are added.
+
+For now, install Gradle 9.3.1 separately and run these commands from the project root:
 
 ```bash
 # Run unit tests
-./gradlew :app:testDebugUnitTest
+gradle :app:testDebugUnitTest
 
 # Run Android lint
-./gradlew :app:lintDebug
+gradle :app:lintDebug
 
 # Build a debug APK
-./gradlew :app:assembleDebug
+gradle :app:assembleDebug
 ```
 
 To build a signed release APK, configure your signing credentials locally using the project's supported Gradle properties/environment variables. **Never commit keystores, passwords or signing credentials.**
